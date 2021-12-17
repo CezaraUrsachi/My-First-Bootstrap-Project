@@ -27,8 +27,7 @@ header h2 {
 }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
+    padding: 50px 200px;
     min-height: 200px;
 }
 
@@ -46,5 +45,21 @@ a, a:hover {
 }
 
 .carousel {
-    border: solid #5637DD;
+    /*border: solid #5637DD;*/
+}
+
+.row-background {
+    background-image: linear-gradient(#CEC8FF, white);
+}
+
+.row-background2 {
+    background-image: linear-gradient(white, #CEC8FF);
+}
+
+.p-spacing {
+    padding: 30px 30px 0 0;
+}
+
+.mr-3, .mx-3 {
+    margin-right: 3rem!important;
 }
