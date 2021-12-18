@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: 'Bubblegum Sans', cursive;
 }
 
 h2 {
@@ -15,24 +15,27 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(85,85,213,1) 32%, rgba(0,130,86,1) 100%);
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(85,85,213,1) 32%, rgba(0,130,86,1) 100%);
     color: white;
 }
 
 .row-content {
-    padding: 50px 200px;
+    padding: 50px 400px;
     min-height: 200px;
 }
 
 .navbar {
-    background-color: #901CAD;
+    background: rgb(8,0,0);
+    background: linear-gradient(90deg, rgba(8,0,0,1) 0%, rgba(68,68,171,1) 32%, rgba(0,98,65,1) 100%);  
 }
 
 a, a:hover {
@@ -57,7 +60,7 @@ a, a:hover {
 }
 
 .p-spacing {
-    padding: 30px 30px 0 0;
+    padding: 40px 40px 0 0;
 }
 
 .mr-3, .mx-3 {
